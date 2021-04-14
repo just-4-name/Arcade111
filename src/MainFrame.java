@@ -185,11 +185,11 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
 
 
         char c = e.getKeyChar();
-        if (c == 'a') {
+        if (c == 'a' || c == 'A' || c == 'ф' || c == 'Ф') {
             hero.v = -Math.abs(hero.v);
             hero.isMoving = true;
         }
-        if (c == 'd') {
+        if (c == 'd' || c == 'D' || c == 'в' || c == 'В') {
             hero.v = Math.abs(hero.v);
             hero.isMoving = true;
         }
@@ -198,9 +198,9 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
             hero.y--;
             hero.vy = 2.4;
             hero.isOnFloor = false;
-        }if(c == 'f'){
+        }if(c == 'f' || c == 'F' || c == 'а' || c == 'А'){
             hero.checkIfInDoor();
-        }if(c == 'e'){
+        }if(c == 'e' || c == 'E' || c == 'у' || c == 'У'){
             hero.checkIfNearBox();
         }if(c == VK_ESCAPE){
             if(programIsRunning) programIsRunning = false;
