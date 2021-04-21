@@ -78,6 +78,7 @@ public class World {
 
 
     public void check() {
+        if(hero.x>14200 && hero.y == -2610) mainFrame.isWin = true;
         if (mainFrame.startFromLastCheckPoint) {
             return;
         }

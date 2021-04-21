@@ -27,6 +27,7 @@ public class Main {
         BufferedImage dessertGrass2Img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertGrass2.png"));
         BufferedImage skeletonImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\Skeleton.png"));
         BufferedImage dessertBoxImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertBox.png"));
+        BufferedImage finishImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\finish.png"));
 
         BufferedImage dessertPlatformLong = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatform1000.png"));
         BufferedImage dessertPlatformLeft = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatformLeft.png"));
@@ -64,6 +65,7 @@ public class Main {
         objects.add(new Object(10250,-2400,200,100,dessertStoneImg));
         objects.add(new Object(10800,-2400,160,100,dessertBush2Img));
         objects.add(new Object(12130,-3350,100,50,dessertGrass1Img));
+        objects.add(new Object(14150,-2600,100,100,finishImg));
 
 
 
@@ -263,6 +265,10 @@ public class Main {
         platforms.add(new Platform(13197,-2500,100,100,dessertPlatformMiddle));
         platforms.add(new Platform(13296,-2500,100,100,dessertPlatformRight));
         platforms.add(new Platform(12900,-3500,100,100,dessertPlatformMiddle));
+        platforms.add(new Platform(14000,-2500,100,100,dessertPlatformLeft));
+        platforms.add(new Platform(14099,-2500,100,100,dessertPlatformMiddle));
+        platforms.add(new Platform(14198,-2500,100,100,dessertPlatformMiddle));
+        platforms.add(new Platform(14297,-2500,100,100,dessertPlatformRight));
 
 
 

@@ -21,6 +21,7 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
     boolean updateEnemies = false;
     boolean updatePrizes = false;
     boolean updateCheckPoints = false;
+    boolean isWin = false;
     ArrayList<Object> objects;
     BufferedImage backGroundImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\backGroundRock.png"));
     ArrayList<Ring> rings;
@@ -90,6 +91,7 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
             hero.isOnFloor = true;
             hero.isMoving = false;
             hero.v = Math.abs(hero.v);
+            isWin = false;
             updateEnemies = true;
             programIsRunning = true;
             hero.isCarrying = -1;
@@ -107,12 +109,13 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
             g.drawString("RESUME",600,350);
             g.drawString("EXIT",600,400);
         }
-        else if (gameOver){
+        else if (gameOver || isWin){
             Color c = new Color(219, 184, 133);
             this.setBackground(c);
             g.setColor(Color.BLACK);
             //g.drawImage(woodImg,0,0,this.getWidth(),this.getHeight(),null);
-            g.drawString("GAME OVER!",600,300);
+            if (gameOver) g.drawString("GAME OVER!",600,300);
+            else g.drawString("WELL DONE!",600,300);
             g.drawString("YOUR AMOUNT OF KILLS: " + cnt,600,350) ;
             g.drawString("YOUR SCORE: " + score,600,400);
             g.drawString("NEW GAME",600,450);
@@ -212,9 +215,9 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
     public void keyReleased(KeyEvent e) {
 
         char c = e.getKeyChar();
-        if(c == 'd' && hero.v>0){
+        if((c == 'd' || c=='D' || c=='в' || c == 'В') && hero.v>0){
             hero.isMoving = false;
-        }if(c == 'a' && hero.v<0){
+        }if((c == 'a' || c == 'A' || c == 'ф' || c == 'Ф') && hero.v<0){
             hero.isMoving = false;
         }
 
@@ -234,7 +237,7 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
         int y = e.getY();
         //System.out.println(x + " " + y);
 
-        if(!programIsRunning && !gameOver){
+        if(!programIsRunning && !gameOver && !isWin){
             if(x>=600 && x<=720 && y>=280 && y<=300){
                 hero.x = 400;
                 hero.y = 590;
@@ -246,6 +249,7 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
                 updatePrizes = true;
                 updateCheckPoints = true;
                 score = 0;
+                isWin = false;
                 programIsRunning = true;
                 hero.isCarrying = -1;
                 lifeCounter = 5;
@@ -261,10 +265,11 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
                 System.exit(0);
             }
         }
-        else if (gameOver){
+        else if (gameOver || isWin){
             if(x>=600 && x<=720 && y>=430 && y<=450){
                 hero.x = 400;
                 hero.y = 590;
+                isWin = false;
                 hero.isOnFloor = true;
                 updatePrizes = true;
                 lifeCounter = 5;
