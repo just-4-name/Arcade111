@@ -15,7 +15,7 @@ public class Door {
 
 
     public Door(int x1,int y1,int x2,int y2) throws IOException {
-        this.doorImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\doorImage.png"));
+        this.doorImg = ImageIO.read(Main.class.getResourceAsStream("doorImage.png"));;
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;

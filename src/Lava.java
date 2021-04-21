@@ -17,10 +17,10 @@ public class Lava {
         this.y = y;
         this.len = len;
         this.height = height;
-        if (type == 0) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\spikes_top.png"));
-        if (type == 1) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\cactus1.png"));
-        if (type == 2) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\cactus2.png"));
-        if (type == 3) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\cactus3.png"));
+        if (type == 0) this.img = ImageIO.read(Main.class.getResourceAsStream("spikes_top.png"));
+        if (type == 1) this.img = ImageIO.read(Main.class.getResourceAsStream("cactus1.png"));
+        if (type == 2) this.img = ImageIO.read(Main.class.getResourceAsStream("cactus2.png"));
+        if (type == 3) this.img = ImageIO.read(Main.class.getResourceAsStream("cactus3.png"));
     }
 
     public void draw(Graphics g, int heroX, int heroY) {

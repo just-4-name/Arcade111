@@ -11,7 +11,7 @@ public class Fireball {
     public int direction;
     public int right;
     public int left;
-    BufferedImage img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\Fireball.png"));
+    BufferedImage img = ImageIO.read(Main.class.getResourceAsStream("Fireball.png"));
 
     public Fireball(int y, int direction, int left, int right, int interval) throws IOException {
         this.y = y;

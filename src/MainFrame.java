@@ -23,7 +23,6 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
     boolean updateCheckPoints = false;
     boolean isWin = false;
     ArrayList<Object> objects;
-    BufferedImage backGroundImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\backGroundRock.png"));
     ArrayList<Ring> rings;
     ArrayList<CheckPoint> checkPoints;
     ArrayList<Platform> platforms;
@@ -46,7 +45,7 @@ public class MainFrame extends JFrame implements KeyListener, MouseListener {
                      ArrayList<Fireball> fireballs, ArrayList<Lava> lava, ArrayList<CheckPoint> checkPoints,
                      ArrayList<Object> objects) throws IOException {
         this.objects = objects;
-        this.heartFull = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\heartFull.png"));
+        this.heartFull = ImageIO.read(Main.class.getResourceAsStream("heartFull.png"));;
         this.fireballs = fireballs;
         this.doors = doors;
         this.lifeCounter = 5;

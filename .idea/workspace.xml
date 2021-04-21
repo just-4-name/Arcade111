@@ -7,8 +7,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="hero does not die with 0 amount of lifes bugfix">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Arcade_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Arrow_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Circular_saw_blade (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Fireball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Skeleton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/backGroundRock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/backgr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/backgroundImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bush1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bush2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cactus1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cactus2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cactus3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/check_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertGrass1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertGrass2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertPlatform1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertPlatformLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertPlatformMiddle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertPlatformRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertStone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertStoneBlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dessertTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/doorImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/finish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/firewatch-1617187633862-5302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ground_stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/heartFull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_jump_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_jump_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_stand_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_stand_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_walk1_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_walk1_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_walk_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/player_walk_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/prize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/set1_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spikes_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stonesmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/zombie_walk1_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/zombie_walk1_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/zombie_walk2_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/zombie_walk2_right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arcade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arcade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/Prize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/Prize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/Ring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/Ring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrow_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circular_saw_blade (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fireball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fireball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backGroundRock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgroundImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bush1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bush2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cactus1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cactus2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cactus3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertGrass1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertGrass2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertPlatform1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertPlatformLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertPlatformMiddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertPlatformRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertStone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertStoneBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dessertTree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doorImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firewatch-1617187633862-5302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ground_stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heartFull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_jump_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_jump_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_stand_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_stand_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_walk1_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_walk1_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_walk_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player_walk_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set1_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spikes_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stonesmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zombie_walk1_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zombie_walk1_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zombie_walk2_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zombie_walk2_right.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +180,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -82,7 +198,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1lPwJ9ckODu0xHGWpyqB0ntFMC0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -91,6 +209,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -248,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619026240962</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hero does not die with 0 amount of lifes bugfix">
+      <created>1619027370590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619027370590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -268,6 +394,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="hero does not die with 0 amount of lifes bugfix" />
     <option name="LAST_COMMIT_MESSAGE" value="hero does not die with 0 amount of lifes bugfix" />

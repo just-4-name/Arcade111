@@ -18,21 +18,21 @@ public class Main {
         ArrayList<Fireball> fireballs = new ArrayList<>();
         ArrayList<Object> objects = new ArrayList<>();
 
-        BufferedImage dessertStoneImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertStone.png"));
-        BufferedImage dessertBush1Img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\bush1.png"));
-        BufferedImage dessertBush2Img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\bush2.png"));
-        BufferedImage arrowRightImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\Arrow_Right.png"));
-        BufferedImage dessertTreeImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertTree.png"));
-        BufferedImage dessertGrass1Img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertGrass1.png"));
-        BufferedImage dessertGrass2Img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertGrass2.png"));
-        BufferedImage skeletonImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\Skeleton.png"));
-        BufferedImage dessertBoxImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertBox.png"));
-        BufferedImage finishImg = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\finish.png"));
+        BufferedImage dessertStoneImg = ImageIO.read(Main.class.getResourceAsStream("dessertStone.png"));
+        BufferedImage dessertBush1Img = ImageIO.read(Main.class.getResourceAsStream("bush1.png"));
+        BufferedImage dessertBush2Img = ImageIO.read(Main.class.getResourceAsStream("bush2.png"));
+        BufferedImage arrowRightImg = ImageIO.read(Main.class.getResourceAsStream("Arrow_Right.png"));
+        BufferedImage dessertTreeImg = ImageIO.read(Main.class.getResourceAsStream("dessertTree.png"));
+        BufferedImage dessertGrass1Img = ImageIO.read(Main.class.getResourceAsStream("dessertGrass1.png"));
+        BufferedImage dessertGrass2Img = ImageIO.read(Main.class.getResourceAsStream("dessertGrass2.png"));
+        BufferedImage skeletonImg = ImageIO.read(Main.class.getResourceAsStream("Skeleton.png"));
+        BufferedImage dessertBoxImg = ImageIO.read(Main.class.getResourceAsStream("dessertBox.png"));
+        BufferedImage finishImg = ImageIO.read(Main.class.getResourceAsStream("finish.png"));
 
-        BufferedImage dessertPlatformLong = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatform1000.png"));
-        BufferedImage dessertPlatformLeft = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatformLeft.png"));
-        BufferedImage dessertPlatformRight = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatformRight.png"));
-        BufferedImage dessertPlatformMiddle = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\dessertPlatformMiddle.png"));
+        BufferedImage dessertPlatformLong = ImageIO.read(Main.class.getResourceAsStream("dessertPlatform1000.png"));
+        BufferedImage dessertPlatformLeft = ImageIO.read(Main.class.getResourceAsStream("dessertPlatformLeft.png"));
+        BufferedImage dessertPlatformRight = ImageIO.read(Main.class.getResourceAsStream("dessertPlatformRight.png"));
+        BufferedImage dessertPlatformMiddle = ImageIO.read(Main.class.getResourceAsStream("dessertPlatformMiddle.png"));
 
         objects.add(new Object(600,630,70,70,arrowRightImg));
         objects.add(new Object(50,440,310,260,dessertTreeImg));
@@ -120,15 +120,15 @@ public class Main {
         BufferedImage[] heroLeft = new BufferedImage[2];
         BufferedImage[] zombieRight = new BufferedImage[2];
         BufferedImage[] zombieLeft = new BufferedImage[2];
-        zombieRight[0] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\zombie_walk1_right.png"));
-        zombieRight[1] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\zombie_walk2_right.png"));
-        zombieLeft[0] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\zombie_walk1_left.png"));
-        zombieLeft[1] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\zombie_walk2_left.png"));
+        zombieRight[0] =ImageIO.read(Main.class.getResourceAsStream("zombie_walk1_right.png"));
+        zombieRight[1] = ImageIO.read(Main.class.getResourceAsStream("zombie_walk2_right.png"));
+        zombieLeft[0] = ImageIO.read(Main.class.getResourceAsStream("zombie_walk1_left.png"));
+        zombieLeft[1] = ImageIO.read(Main.class.getResourceAsStream("zombie_walk2_left.png"));
 
-        heroRight[0] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_walk_right.png"));
-        heroRight[1] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_walk1_right.png"));
-        heroLeft[0] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_walk_left.png"));
-        heroLeft[1] = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_walk1_left.png"));
+        heroRight[0] = ImageIO.read(Main.class.getResourceAsStream("player_walk_right.png"));
+        heroRight[1] = ImageIO.read(Main.class.getResourceAsStream("player_walk1_right.png"));
+        heroLeft[0] = ImageIO.read(Main.class.getResourceAsStream("player_walk_left.png"));
+        heroLeft[1] = ImageIO.read(Main.class.getResourceAsStream("player_walk1_left.png"));
 
         Animation heroGoRight = new Animation(heroRight, 900000);
         Animation heroGoLeft = new Animation(heroLeft, 900000);

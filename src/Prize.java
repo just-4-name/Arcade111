@@ -13,8 +13,8 @@ public class Prize {
         this.x = x;
         this.type  = type;
         this.y = y;
-        if (type == 0) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\prize.png"));
-        if(type == 1) this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\heartFull.png"));
+        if (type == 0) this.img = ImageIO.read(Main.class.getResourceAsStream("prize.png"));
+        if(type == 1) this.img = ImageIO.read(Main.class.getResourceAsStream("heartFull.png"));
     }
 
 

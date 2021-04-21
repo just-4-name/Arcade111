@@ -11,7 +11,7 @@ public class Ring {
     public int x1;
     public int y1;
     public double timer;
-    BufferedImage img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\Circular_saw_blade (1).png"));
+    BufferedImage img = ImageIO.read(Main.class.getResourceAsStream("Circular_saw_blade (1).png"));
 
     public Ring (int x, int y, int r) throws IOException {
         this.x = x;

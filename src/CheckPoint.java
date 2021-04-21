@@ -12,7 +12,7 @@ public class CheckPoint {
     public CheckPoint(int x, int y) throws IOException {
         this.x = x;
         this.y = y;
-        this.img = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\check_point.png"));
+        this.img = ImageIO.read(Main.class.getResourceAsStream("check_point.png"));;
     }
 
     public void draw(Graphics g, int heroX, int heroY){

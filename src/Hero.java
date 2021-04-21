@@ -23,10 +23,10 @@ public class Hero {
         this.movingBlocks = movingBlocks;
         this.heroGoRight = heroGoRight;
         this.heroGoLeft = heroGoLeft;
-        this.img_r = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_stand_right.png"));
-        this.img_l = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_stand_left.png"));
-        this.img_jump_r = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_jump_right.png"));
-        this.img_jump_l = ImageIO.read(new File("D:\\IdeaProjects\\Arcade\\src\\player_jump_left.png"));
+        this.img_r = ImageIO.read(Main.class.getResourceAsStream("player_stand_right.png"));
+        this.img_l = ImageIO.read(Main.class.getResourceAsStream("player_stand_left.png"));
+        this.img_jump_r = ImageIO.read(Main.class.getResourceAsStream("player_jump_right.png"));
+        this.img_jump_l = ImageIO.read(Main.class.getResourceAsStream("player_jump_left.png"));
     }
 
     public boolean isMoving = false;
